@@ -1,6 +1,9 @@
 import UIAbility from '@ohos.app.ability.UIAbility';
 import hilog from '@ohos.hilog';
 import window from '@ohos.window';
+import abilityAccessCtrl from '@ohos.abilityAccessCtrl';
+import bundleManager from '@ohos.bundle.bundleManager';
+import defaultAppManager from '@ohos.bundle.defaultAppManager';
 
 export default class EntryAbility extends UIAbility {
   onCreate(want, launchParam) {
